@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		045FC7492D73A2F2009B7E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045FC7302D73A2F1009B7E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045FC7372D73A2F1009B7E80;
+			remoteInfo = CircuitDrawingApp;
+		};
+		045FC7532D73A2F3009B7E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045FC7302D73A2F1009B7E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045FC7372D73A2F1009B7E80;
+			remoteInfo = CircuitDrawingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045FC7382D73A2F1009B7E80 /* CircuitDrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircuitDrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FC7482D73A2F2009B7E80 /* CircuitDrawingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuitDrawingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FC7522D73A2F3009B7E80 /* CircuitDrawingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuitDrawingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		045FC73A2D73A2F1009B7E80 /* CircuitDrawingApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CircuitDrawingApp;
+			sourceTree = "<group>";
+		};
+		045FC74B2D73A2F2009B7E80 /* CircuitDrawingAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CircuitDrawingAppTests;
+			sourceTree = "<group>";
+		};
+		045FC7552D73A2F3009B7E80 /* CircuitDrawingAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CircuitDrawingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045FC7352D73A2F1009B7E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FC7452D73A2F2009B7E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FC74F2D73A2F3009B7E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045FC72F2D73A2F1009B7E80 = {
+			isa = PBXGroup;
+			children = (
+				045FC73A2D73A2F1009B7E80 /* CircuitDrawingApp */,
+				045FC74B2D73A2F2009B7E80 /* CircuitDrawingAppTests */,
+				045FC7552D73A2F3009B7E80 /* CircuitDrawingAppUITests */,
+				045FC7392D73A2F1009B7E80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045FC7392D73A2F1009B7E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045FC7382D73A2F1009B7E80 /* CircuitDrawingApp.app */,
+				045FC7482D73A2F2009B7E80 /* CircuitDrawingAppTests.xctest */,
+				045FC7522D73A2F3009B7E80 /* CircuitDrawingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045FC7372D73A2F1009B7E80 /* CircuitDrawingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045FC75C2D73A2F3009B7E80 /* Build configuration list for PBXNativeTarget "CircuitDrawingApp" */;
+			buildPhases = (
+				045FC7342D73A2F1009B7E80 /* Sources */,
+				045FC7352D73A2F1009B7E80 /* Frameworks */,
+				045FC7362D73A2F1009B7E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				045FC73A2D73A2F1009B7E80 /* CircuitDrawingApp */,
+			);
+			name = CircuitDrawingApp;
+			packageProductDependencies = (
+			);
+			productName = CircuitDrawingApp;
+			productReference = 045FC7382D73A2F1009B7E80 /* CircuitDrawingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045FC7472D73A2F2009B7E80 /* CircuitDrawingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045FC75F2D73A2F3009B7E80 /* Build configuration list for PBXNativeTarget "CircuitDrawingAppTests" */;
+			buildPhases = (
+				045FC7442D73A2F2009B7E80 /* Sources */,
+				045FC7452D73A2F2009B7E80 /* Frameworks */,
+				045FC7462D73A2F2009B7E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045FC74A2D73A2F2009B7E80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				045FC74B2D73A2F2009B7E80 /* CircuitDrawingAppTests */,
+			);
+			name = CircuitDrawingAppTests;
+			packageProductDependencies = (
+			);
+			productName = CircuitDrawingAppTests;
+			productReference = 045FC7482D73A2F2009B7E80 /* CircuitDrawingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		045FC7512D73A2F3009B7E80 /* CircuitDrawingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045FC7622D73A2F3009B7E80 /* Build configuration list for PBXNativeTarget "CircuitDrawingAppUITests" */;
+			buildPhases = (
+				045FC74E2D73A2F3009B7E80 /* Sources */,
+				045FC74F2D73A2F3009B7E80 /* Frameworks */,
+				045FC7502D73A2F3009B7E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045FC7542D73A2F3009B7E80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				045FC7552D73A2F3009B7E80 /* CircuitDrawingAppUITests */,
+			);
+			name = CircuitDrawingAppUITests;
+			packageProductDependencies = (
+			);
+			productName = CircuitDrawingAppUITests;
+			productReference = 045FC7522D73A2F3009B7E80 /* CircuitDrawingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045FC7302D73A2F1009B7E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					045FC7372D73A2F1009B7E80 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					045FC7472D73A2F2009B7E80 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 045FC7372D73A2F1009B7E80;
+					};
+					045FC7512D73A2F3009B7E80 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 045FC7372D73A2F1009B7E80;
+					};
+				};
+			};
+			buildConfigurationList = 045FC7332D73A2F1009B7E80 /* Build configuration list for PBXProject "CircuitDrawingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045FC72F2D73A2F1009B7E80;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 045FC7392D73A2F1009B7E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045FC7372D73A2F1009B7E80 /* CircuitDrawingApp */,
+				045FC7472D73A2F2009B7E80 /* CircuitDrawingAppTests */,
+				045FC7512D73A2F3009B7E80 /* CircuitDrawingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045FC7362D73A2F1009B7E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FC7462D73A2F2009B7E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FC7502D73A2F3009B7E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045FC7342D73A2F1009B7E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FC7442D73A2F2009B7E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FC74E2D73A2F3009B7E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045FC74A2D73A2F2009B7E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045FC7372D73A2F1009B7E80 /* CircuitDrawingApp */;
+			targetProxy = 045FC7492D73A2F2009B7E80 /* PBXContainerItemProxy */;
+		};
+		045FC7542D73A2F3009B7E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045FC7372D73A2F1009B7E80 /* CircuitDrawingApp */;
+			targetProxy = 045FC7532D73A2F3009B7E80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		045FC75A2D73A2F3009B7E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		045FC75B2D73A2F3009B7E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045FC75D2D73A2F3009B7E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircuitDrawingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8TV4FUVAP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackCU.CircuitDrawingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045FC75E2D73A2F3009B7E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircuitDrawingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8TV4FUVAP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackCU.CircuitDrawingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		045FC7602D73A2F3009B7E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TV4FUVAP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackCU.CircuitDrawingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircuitDrawingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CircuitDrawingApp";
+			};
+			name = Debug;
+		};
+		045FC7612D73A2F3009B7E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TV4FUVAP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackCU.CircuitDrawingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircuitDrawingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CircuitDrawingApp";
+			};
+			name = Release;
+		};
+		045FC7632D73A2F3009B7E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TV4FUVAP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackCU.CircuitDrawingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircuitDrawingApp;
+			};
+			name = Debug;
+		};
+		045FC7642D73A2F3009B7E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TV4FUVAP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackCU.CircuitDrawingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircuitDrawingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045FC7332D73A2F1009B7E80 /* Build configuration list for PBXProject "CircuitDrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FC75A2D73A2F3009B7E80 /* Debug */,
+				045FC75B2D73A2F3009B7E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045FC75C2D73A2F3009B7E80 /* Build configuration list for PBXNativeTarget "CircuitDrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FC75D2D73A2F3009B7E80 /* Debug */,
+				045FC75E2D73A2F3009B7E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045FC75F2D73A2F3009B7E80 /* Build configuration list for PBXNativeTarget "CircuitDrawingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FC7602D73A2F3009B7E80 /* Debug */,
+				045FC7612D73A2F3009B7E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045FC7622D73A2F3009B7E80 /* Build configuration list for PBXNativeTarget "CircuitDrawingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FC7632D73A2F3009B7E80 /* Debug */,
+				045FC7642D73A2F3009B7E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045FC7302D73A2F1009B7E80 /* Project object */;
+}
