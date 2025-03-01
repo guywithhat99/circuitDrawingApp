@@ -44,6 +44,7 @@ struct CanvasViewWrapper: UIViewRepresentable {
     @Binding var canvasView: PKCanvasView
     @Binding var showToolPicker: Bool
     
+    
     // For communication between UIKit and SwiftUI
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
@@ -56,7 +57,9 @@ struct CanvasViewWrapper: UIViewRepresentable {
         canvasView.delegate = context.coordinator
         
         // Set up the tool picker
-        let toolPicker = PKToolPicker()
+        let pen = PKToolPickerInkingItem(__inkType: .pen,color: .blue, width: 10)
+        let eraser = PKToolPickerEraserItem(type: PKEraserTool.EraserType.vector)
+        let toolPicker = PKToolPicker(toolItems: [pen, eraser])
         toolPicker.setVisible(showToolPicker, forFirstResponder: canvasView)
         toolPicker.addObserver(canvasView)
         
