@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct CircuitDrawingAppApp: App {
     var body: some Scene {
         WindowGroup {
