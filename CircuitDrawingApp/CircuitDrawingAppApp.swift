@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct CircuitDrawingAppApp: App {
+@main
+struct CircuitDrawingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            drawAndGraphView()
         }
     }
 }

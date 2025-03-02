@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      #calculator {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="calculator"></div>
+    <script>
+        
+        var elt = document.getElementById('calculator');
+        var calculator = Desmos.GraphingCalculator(elt, {expressions: false, settingsMenu: false });
+      // Customize the calculator if needed
+    </script>
+  </body>
+</html>
