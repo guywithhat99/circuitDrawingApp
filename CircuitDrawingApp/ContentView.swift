@@ -222,6 +222,7 @@ struct CanvasViewWrapper: UIViewRepresentable {
 
 // Handles processing the PKDrawing for AI analysis
 class DrawingProcessor {
+    
     // Process a PKDrawing to make it suitable for AI analysis
     func processForAIAnalysis(drawing: PKDrawing) -> UIImage? {
         // Step 1: Convert PKDrawing to UIImage
